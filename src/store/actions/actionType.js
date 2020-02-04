@@ -1,0 +1,4 @@
+export const userConstants = {
+  CHANGE_LANGUAGE: "USER_CHANGE_LANGUAGE",
+  INITIAL_USER: "USER_INITIAL_USER"
+};

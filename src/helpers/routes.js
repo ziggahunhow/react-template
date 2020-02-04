@@ -1,8 +1,9 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import Test from "../components";
 
 const ROUTES = [
-  { path: "/", key: "ROOT", exact: true, component: () => <h1>Log in</h1> },
+  { path: "/", key: "ROOT", exact: true, component: () => <Test /> },
   {
     path: "/app",
     key: "APP",
