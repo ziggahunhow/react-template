@@ -1,10 +1,9 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { FormattedMessage } from "react-intl";
 import Button from "@material-ui/core/Button";
 
 export default function Test() {
-  const { language } = useSelector(state => state.user);
   const dispatch = useDispatch();
 
   return (

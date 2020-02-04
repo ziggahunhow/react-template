@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Test from "../components";
+import Test from "components/test";
 
 const ROUTES = [
   { path: "/", key: "ROOT", exact: true, component: () => <Test /> },
