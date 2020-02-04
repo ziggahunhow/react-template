@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Technologies Used:
+
+- Redux - for global state management
+- react-intl - for localization
+- react-router - for routing
+- tailwind - for faster CSS development
+- CSS Modules - to avoid CSS naming conflict
+- SASS - CSS preprocessor
+- Material UI
+
 ## Available Scripts
 
 In the project directory, you can run:
