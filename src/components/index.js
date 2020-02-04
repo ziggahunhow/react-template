@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { FormattedMessage } from "react-intl";
+import Button from "@material-ui/core/Button";
 
 export default function Test() {
   const { language } = useSelector(state => state.user);
@@ -17,6 +18,9 @@ export default function Test() {
       <h1>
         <FormattedMessage id="test.language" />
       </h1>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </div>
   );
 }

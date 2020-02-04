@@ -1,11 +1,8 @@
-import { createBrowserHistory } from "history";
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import rootReducer from "../store/reducers";
 
 import { initialUserState } from "../store/models/users";
-
-export const history = createBrowserHistory();
 
 const initialState = {
   ...initialUserState
