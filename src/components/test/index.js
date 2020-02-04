@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { FormattedMessage } from "react-intl";
 import Button from "@material-ui/core/Button";
+import styles from "styles/components/Test/Test.module.scss";
 
 export default function Test() {
   const dispatch = useDispatch();
@@ -20,6 +21,7 @@ export default function Test() {
       <Button variant="contained" color="primary">
         Hello World
       </Button>
+      <h2 className={styles.test}>Css modules test</h2>
     </div>
   );
 }
