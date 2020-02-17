@@ -4,6 +4,15 @@
   "rules": {
     "prettier/prettier": ["error"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "import/no-unresolved": 0
-  }
+    "import/no-unresolved": 0,
+    "react/require-default-props": 0
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "parserOptions": { "ecmaVersion": 6, "sourceType": "module" }
 }
